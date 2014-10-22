@@ -1,0 +1,8 @@
+application: L1
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /.*
+  script: test.php
